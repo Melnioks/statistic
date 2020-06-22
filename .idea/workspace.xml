@@ -1,28 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="12c00f08-f4df-4810-a78e-292fbc020886" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bonus-calc/src/main/java/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bonus-calc/src/test/java/BonusServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bonus-calculator/src/main/java/ru/netology/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bonus-calculator/src/test/java/ru/netology/BonusServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bonus-calculator/src/test/java/ru/netology/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../akita/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../akita/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page-object/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../page-object/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page-object/src/test/java/ru/netology/web/page/LoginPageV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../page-object/src/test/java/ru/netology/web/page/LoginPageV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page-object/src/test/java/ru/netology/web/test/MoneyTransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../page-object/src/test/java/ru/netology/web/test/MoneyTransferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/netology-code/aqa-code.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1dgGiS2VduobSzDqkwqYe3hwUd0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,10 +57,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -109,5 +144,54 @@
       <updated>1592839449554</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1209" height="284" key="GridCell.Tab.0.bottom" timestamp="1592839888326">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1209" height="284" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592839888326" />
+    <state width="1209" height="284" key="GridCell.Tab.0.center" timestamp="1592839888325">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1209" height="284" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1592839888325" />
+    <state width="1209" height="284" key="GridCell.Tab.0.left" timestamp="1592839888324">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1209" height="284" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1592839888324" />
+    <state width="1209" height="284" key="GridCell.Tab.0.right" timestamp="1592839888326">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1209" height="284" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1592839888326" />
+    <state x="414" y="23" key="RollbackChangesDialog" timestamp="1592841091803">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="414" y="23" key="RollbackChangesDialog/0.23.1440.798@0.23.1440.798" timestamp="1592841091803" />
+    <state x="530" y="311" key="VCS.ChangelistChooser" timestamp="1592841059274">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="530" y="311" key="VCS.ChangelistChooser/0.23.1440.798@0.23.1440.798" timestamp="1592841059274" />
+    <state x="544" y="314" key="VCS.EditChangelistDialog" timestamp="1592841049657">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="544" y="314" key="VCS.EditChangelistDialog/0.23.1440.798@0.23.1440.798" timestamp="1592841049657" />
+    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup" timestamp="1592839868289">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup/0.23.1440.798@0.23.1440.798" timestamp="1592839868289" />
+    <state x="213" y="23" key="search.everywhere.popup" timestamp="1592839859132">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="213" y="23" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1592839859132" />
   </component>
 </project>
