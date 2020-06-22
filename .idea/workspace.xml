@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c00f08-f4df-4810-a78e-292fbc020886" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticServiceTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,6 +66,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -70,15 +76,24 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.statistic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.netology.statistic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn test" />
       <command value="Run mvn -B package --file pom.xml" />
       <command value="mvn -B package --file pom.xml" />
+      <command value="mvn test" />
     </option>
   </component>
   <component name="RunManager">
@@ -121,6 +136,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatisticServiceTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statistic" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.statistic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="ru.netology.statistic" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.statistic.StatisticServiceTest2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -142,6 +178,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatisticServiceTest2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,7 +206,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592841612133</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed mvn command">
+      <created>1592841961910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592841961910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added surefire config for tests">
+      <created>1592842079599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592842079599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added tests">
+      <created>1592842395539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592842395539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,29 +243,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add StatisticService.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add StatisticService.java" />
+    <MESSAGE value="changed mvn command" />
+    <MESSAGE value="added surefire config for tests" />
+    <MESSAGE value="added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1592841611831">
+    <state x="123" y="59" width="1317" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592842970789">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1592841611831" />
-    <state width="1209" height="284" key="GridCell.Tab.0.bottom" timestamp="1592841765848">
+    <state x="123" y="59" width="1317" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1592842970789" />
+    <state x="368" y="253" width="694" height="350" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592842233099">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1209" height="284" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592841765848" />
-    <state width="1209" height="284" key="GridCell.Tab.0.center" timestamp="1592841765847">
+    <state x="368" y="253" width="694" height="350" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.798@0.23.1440.798" timestamp="1592842233099" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1592842395265">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1209" height="284" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1592841765847" />
-    <state width="1209" height="284" key="GridCell.Tab.0.left" timestamp="1592841765846">
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1592842395265" />
+    <state width="1282" height="284" key="GridCell.Tab.0.bottom" timestamp="1592842938452">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1209" height="284" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1592841765846" />
-    <state width="1209" height="284" key="GridCell.Tab.0.right" timestamp="1592841765847">
+    <state width="1282" height="284" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1592842938452" />
+    <state width="1282" height="284" key="GridCell.Tab.0.center" timestamp="1592842938450">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1209" height="284" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1592841765847" />
+    <state width="1282" height="284" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1592842938450" />
+    <state width="1282" height="284" key="GridCell.Tab.0.left" timestamp="1592842938450">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1282" height="284" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1592842938450" />
+    <state width="1282" height="284" key="GridCell.Tab.0.right" timestamp="1592842938451">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1282" height="284" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1592842938451" />
+    <state x="54" y="23" key="Maven.ArtifactSearchDialog" timestamp="1592842896468">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="54" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.798@0.23.1440.798" timestamp="1592842896468" />
     <state x="414" y="23" key="RollbackChangesDialog" timestamp="1592841091803">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
@@ -220,10 +297,14 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="411" y="178" key="chooseDestDirectoryDialog/0.23.1440.798@0.23.1440.798" timestamp="1592841592101" />
-    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup" timestamp="1592841709659">
+    <state x="421" y="173" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592842677856">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup/0.23.1440.798@0.23.1440.798" timestamp="1592841709659" />
+    <state x="421" y="173" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.798@0.23.1440.798" timestamp="1592842677856" />
+    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup" timestamp="1592842914998">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="213" y="183" width="1005" height="1465" key="run.anything.popup/0.23.1440.798@0.23.1440.798" timestamp="1592842914998" />
     <state x="213" y="23" key="search.everywhere.popup" timestamp="1592839859132">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
